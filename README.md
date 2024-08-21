@@ -3,8 +3,9 @@
 
 #### demo
 ```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/tvbox.json
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/all.json
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/tvbox.json
+```
 
 ## 功能概述
 - 支持多仓、单仓、线路接口的私有化(json和对应的jar文件下载到本地，经过格式化后推送到自己的git仓库)
@@ -24,8 +25,6 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/mast
 - V1.0版本 支持单线路、单仓、多仓下载，输出：{target}(默认tvbox.json)，和url填写的源内容一致；all.json是仓库中所有下载的历史线路总和，并且去重了内容相同的线路
 
 ## 使用方法：
-
-```
 
 #### 参数选项 
 docker run时使用-e选项通过环境变量传参
